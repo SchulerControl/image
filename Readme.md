@@ -1,13 +1,13 @@
-###Get root filesystem image for Tuxono S/L
+###Get SD card image for Tuxono S/L
 Download complete image (as a compressed zip file) from Google Drive: https://drive.google.com/open?id=0B3fAL9wNxT7XNzJGeWduME5MYjQ
 
 ###Extract and copy to SD card
-Extract zip file with your favorite tool.
+Extract the zip file with your favorite tool.
 
 ####Copy to SD card on Windows
 Copy image to SD card with the 'Win32DiskImager' (http://sourceforge.net/projects/win32diskimager/) tool.
 
-#####Copy to SD card on Linux
+####Copy to SD card on Linux
 Copy file to SD card with the following command:
 >```
 $ sudo dd bs=4M if=tuxono-ArchLinuxARM-17-Sep-2015.img of=/path/to/sdcard
