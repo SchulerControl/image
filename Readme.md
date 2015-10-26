@@ -17,7 +17,7 @@ $ sudo dd bs=4M if=tuxono-ArchLinuxARM-17-Sep-2015.img of=/path/to/sdcard
 ###Bootlog
 Below you can see the debug log output of the booting system:
 
->```text
+```text
 U-Boot 2014.10-00002-g0127499 (Sep 18 2015 - 11:52:40)
 
 CPU:   Freescale i.MX28 rev1.2 at 454 MHz
