@@ -1,4 +1,4 @@
-###Get root filesystem image
+###Get root filesystem image for Tuxono S/L
 Download complete image (as a compressed zip file) from Google Drive: https://drive.google.com/open?id=0B3fAL9wNxT7XNzJGeWduME5MYjQ
 
 ###Extract and copy to SD card
@@ -17,7 +17,7 @@ $ sudo dd bs=4M if=tuxono-ArchLinuxARM-17-Sep-2015.img of=/path/to/sdcard
 ###Bootlog
 Below you can see the debug log output of the booting system:
 
->```
+>```text
 U-Boot 2014.10-00002-g0127499 (Sep 18 2015 - 11:52:40)
 
 CPU:   Freescale i.MX28 rev1.2 at 454 MHz
